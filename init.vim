@@ -98,5 +98,8 @@ set exrc
 
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
+let g:gruvbox_contrast_dark = 'hard'
 colorscheme gruvbox
+hi CursorLineNr   term=bold ctermfg=Blue gui=bold guifg=Blue
+
 set colorcolumn=80
