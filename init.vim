@@ -1,4 +1,5 @@
 set guicursor=
+set termguicolors
 " init autocmd
 autocmd!
 " set script encoding
@@ -22,7 +23,7 @@ set fileencodings=utf-8,sjis,euc-jp,latin
 set encoding=utf-8
 set title
 set autoindent
-set background=dark
+"set background=dark
 set nobackup
 set hlsearch
 set showcmd
@@ -98,8 +99,14 @@ set exrc
 
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
+" Gruvbox
 let g:gruvbox_contrast_dark = 'hard'
 colorscheme gruvbox
-hi CursorLineNr   term=bold ctermfg=Blue gui=bold guifg=Blue
+highlight LineNr guifg=#5eacd3
+highlight CursorLineNr guifg=#5eacd3
+
+" GruberDarker
+"colorscheme GruberDarker
+"hi CursorLineNr    term=bold cterm=bold gui=bold
 
 set colorcolumn=80
