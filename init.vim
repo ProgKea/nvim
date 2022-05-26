@@ -51,7 +51,7 @@ set nosc noru nosm
 set lazyredraw
 set ignorecase
 set smartcase
-set nocursorline
+"set nocursorline
 set nocursorcolumn
 set lazyredraw
 set synmaxcol=180 
@@ -75,9 +75,9 @@ set wildignore+=*/node_modules/*
 set formatoptions+=r
 
 set cursorline
-hi clear CursorLine
-
-hi CursorLineNR cterm=bold
+"hi clear CursorLine
+"
+"hi CursorLineNR cterm=bold
 
 " Set cursor line color on visual mode
 highlight Visual cterm=NONE ctermbg=236 ctermfg=NONE guibg=Grey40
@@ -100,13 +100,17 @@ set exrc
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " Gruvbox
-let g:gruvbox_contrast_dark = 'hard'
 colorscheme gruvbox
+hi Normal guibg=#181818
 highlight LineNr guifg=#5eacd3
 highlight CursorLineNr guifg=#5eacd3
+set colorcolumn=80
+hi CursorLineNr    guibg=NONE
+hi CursorLine      guibg=NONE
 
 " GruberDarker
 "colorscheme GruberDarker
-"hi CursorLineNr    term=bold cterm=bold gui=bold
-
-set colorcolumn=80
+"hi CursorLineNr    gui=NONE
+"hi CursorLine      guibg=NONE
+"hi LineNr          guifg=#453d41
+"set colorcolumn=
