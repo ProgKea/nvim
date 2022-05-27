@@ -104,13 +104,6 @@ colorscheme gruvbox
 hi Normal guibg=#181818
 highlight LineNr guifg=#5eacd3
 highlight CursorLineNr guifg=#5eacd3
-set colorcolumn=80
 hi CursorLineNr    guibg=NONE
 hi CursorLine      guibg=NONE
-
-" GruberDarker
-"colorscheme GruberDarker
-"hi CursorLineNr    gui=NONE
-"hi CursorLine      guibg=NONE
-"hi LineNr          guifg=#453d41
-"set colorcolumn=
+set colorcolumn=80

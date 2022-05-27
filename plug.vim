@@ -29,6 +29,5 @@ if has("nvim")
   Plug 'nvim-telescope/telescope-fzy-native.nvim'
   Plug 'gruvbox-community/gruvbox'
   Plug 'sbdchd/neoformat'
-  Plug 'drsooch/gruber-darker-vim'
 endif
 call plug#end()
