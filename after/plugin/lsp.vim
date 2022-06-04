@@ -8,4 +8,5 @@ nnoremap <leader>lc :lua vim.lsp.buf.code_action()<CR>
 nnoremap <leader>ls :lua vim.diagnostics()<CR>
 nnoremap <leader>ln :lua vim.diagnostic.goto_next()<CR>
 nnoremap <leader>lp :lua vim.diagnostic.goto_prev()<CR>
+nnoremap <leader>lf :Neoformat<CR>
 nnoremap <leader>ll :LspStart<CR>
