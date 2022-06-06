@@ -7,3 +7,4 @@ require'lspconfig'.texlab.setup{
 require'lspconfig'.cssls.setup{}
 require 'lspconfig'.tsserver.setup{}
 require 'lspconfig'.hls.setup{}
+require'lspconfig'.r_language_server.setup{}

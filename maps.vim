@@ -34,8 +34,7 @@ nmap <Tab> :tabnext<Return>
 nnoremap S :%s//g<Left><Left>
 
 map <leader>c :w<CR>:!compiler %:p<CR>
-map <leader>mm :w<CR>:!
-map <leader>mr :w<CR>:@:<CR>
+map <leader>m :w<CR>:!make<CR>
 map <leader>i :w<CR>:!compiler %:p && ./%< < input<CR>
 map <C-c> :w<CR>:!compiler %:p<CR><CR>:!./%<<CR>
 
