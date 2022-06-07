@@ -100,13 +100,10 @@ set exrc
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " Gruvbox
-"colorscheme gruvbox
-"hi Normal guibg=#181818
-"highlight LineNr guifg=#5eacd3
-"highlight CursorLineNr guifg=#5eacd3
-"hi CursorLineNr    guibg=NONE
-"hi CursorLine      guibg=NONE
-"set colorcolumn=80
-
-" Solarized
-colorscheme NeoSolarized
+colorscheme gruvbox
+hi Normal guibg=#181818
+highlight LineNr guifg=#5eacd3
+highlight CursorLineNr guifg=#5eacd3
+hi CursorLineNr    guibg=NONE
+hi CursorLine      guibg=NONE
+set colorcolumn=80
