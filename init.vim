@@ -99,11 +99,18 @@ set exrc
 
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
+augroup highlight_yank
+    autocmd!
+    autocmd TextYankPost * silent! lua require'vim.highlight'.on_yank({timeout = 40})
+augroup END
+
 " Gruvbox
+let g:gruvbox_invert_selection='0'
 colorscheme gruvbox
-hi Normal guibg=#181818
 highlight LineNr guifg=#5eacd3
 highlight CursorLineNr guifg=#5eacd3
 hi CursorLineNr    guibg=NONE
 hi CursorLine      guibg=NONE
 set colorcolumn=80
+hi Normal guibg=#000000
+"hi Normal guibg=#181818
