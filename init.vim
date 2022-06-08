@@ -18,6 +18,7 @@ autocmd BufRead,BufNewFile *.ms,*.me,*.mom set filetype=groff
 let mapleader =" "
 
 set nocompatible
+set updatetime=50
 set number relativenumber
 set fileencodings=utf-8,sjis,euc-jp,latin
 set encoding=utf-8
@@ -112,5 +113,7 @@ highlight CursorLineNr guifg=#5eacd3
 hi CursorLineNr    guibg=NONE
 hi CursorLine      guibg=NONE
 set colorcolumn=80
-hi Normal guibg=#000000
+"hi Normal guibg=#000000
 "hi Normal guibg=#181818
+hi! Normal ctermbg=NONE guibg=NONE
+"hi! NonText ctermbg=NONE guibg=NONE

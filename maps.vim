@@ -48,6 +48,7 @@ nmap <leader>gs :G<CR>
 nmap <leader>gpp :G push<CR>
 nmap <leader>gpl :G pull<CR>
 nmap <leader>gc :G commit<CR>
+nnoremap <leader>u :UndotreeShow<CR>
 
 " Telescope bindings
 
@@ -57,3 +58,7 @@ nnoremap <leader>pw :lua require('telescope.builtin').grep_string { search = vim
 nnoremap <Leader>pb :Telescope buffers<CR>
 nnoremap <Leader>vh :Telescope help_tags<CR>
 nnoremap <leader>ps :lua require('telescope.builtin').grep_string({ search = vim.fn.input("Grep For > ")})<CR>
+
+"nnoremap <leader>gc :lua require('telescope').git_branches()<CR>
+"nnoremap <leader>gw :lua require('telescope').extensions.git_worktree.git_worktrees()<CR>
+"nnoremap <leader>gm :lua require('telescope').extensions.git_worktree.create_git_worktree()<CR>
