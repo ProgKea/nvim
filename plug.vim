@@ -29,6 +29,6 @@ if has("nvim")
   Plug 'nvim-telescope/telescope-fzy-native.nvim'
   Plug 'gruvbox-community/gruvbox'
   Plug 'sbdchd/neoformat'
-"  Plug 'mbbill/undotree'
+  Plug 'mbbill/undotree'
 endif
 call plug#end()
