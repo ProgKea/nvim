@@ -81,12 +81,12 @@ set cursorline
 "hi CursorLineNR cterm=bold
 
 " Set cursor line color on visual mode
-highlight Visual cterm=NONE ctermbg=236 ctermfg=NONE guibg=Grey40
+" highlight Visual cterm=NONE ctermbg=236 ctermfg=NONE guibg=Grey40
 
-highlight LineNr cterm=none ctermfg=240 guifg=#2b506e guibg=#000000
+"highlight LineNr cterm=none ctermfg=240 guifg=#2b506e guibg=#000000
 
-hi Pmenu         guibg=#242424 guifg=#ccccbc           ctermfg=251 ctermbg=235
-hi PmenuSel      guibg=#353a37 guifg=#ccdc90 gui=bold  ctermfg=187 ctermbg=236 cterm=bold
+"hi Pmenu         guibg=#242424 guifg=#ccccbc           ctermfg=251 ctermbg=235
+"hi PmenuSel      guibg=#353a37 guifg=#ccdc90 gui=bold  ctermfg=187 ctermbg=236 cterm=bold
 
 runtime ./plug.vim
 if has("unix")

@@ -6,7 +6,7 @@ nnoremap <leader>r :lua vim.lsp.buf.rename()<CR>
 nnoremap <leader>lh :lua vim.lsp.buf.hover()<CR>
 nnoremap <leader>lc :lua vim.lsp.buf.code_action()<CR>
 nnoremap <leader>ls :lua vim.diagnostics()<CR>
+nnoremap <leader>lo :lua vim.diagnostic.open_float()<CR>
 nnoremap <leader>ln :lua vim.diagnostic.goto_next()<CR>
 nnoremap <leader>lp :lua vim.diagnostic.goto_prev()<CR>
 nnoremap <leader>lf :Neoformat<CR>
-nnoremap <leader>ll :LspStart<CR>
