@@ -22,7 +22,8 @@ lualine.setup {
       'encoding',
       'filetype'
     },
-    lualine_y = {'progress'},
+    --lualine_y = {'progress'},
+    lualine_y = {},
     lualine_z = {'location'}
   },
   inactive_sections = {
@@ -40,4 +41,3 @@ lualine.setup {
   tabline = {},
   extensions = {'fugitive'}
 }
-
