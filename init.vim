@@ -113,8 +113,11 @@ highlight LineNr guifg=#5eacd3
 highlight CursorLineNr guifg=#5eacd3
 hi CursorLineNr    guibg=NONE
 hi CursorLine      guibg=NONE
+hi netrwDir guifg=#5eacd3
 set colorcolumn=80
+hi! Normal ctermbg=NONE guibg=NONE
 "hi Normal guibg=#000000
 "hi Normal guibg=#181818
-hi! Normal ctermbg=NONE guibg=NONE
 "hi! NonText ctermbg=NONE guibg=NONE
+
+nnoremap <leader>pv :Ex<CR>
