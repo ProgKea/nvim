@@ -119,5 +119,3 @@ hi! Normal ctermbg=NONE guibg=NONE
 "hi Normal guibg=#000000
 "hi Normal guibg=#181818
 "hi! NonText ctermbg=NONE guibg=NONE
-
-nnoremap <leader>pv :Ex<CR>
