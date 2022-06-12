@@ -107,6 +107,7 @@ augroup END
 
 " Gruvbox
 let g:gruvbox_invert_selection='0'
+let g:gruvbox_contrast_dark = 'hard'
 colorscheme gruvbox
 highlight LineNr guifg=#5eacd3
 highlight CursorLineNr guifg=#5eacd3
